@@ -32,6 +32,9 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
 }
 
 .container {
@@ -474,9 +477,11 @@ clip: rect(0 0 0 0);
   
 }
 
+/* -----------------------------team------------------------- */
+
 .team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 128px;
   background: #F4F4FD;
 }
 .team-title {
@@ -499,6 +504,7 @@ clip: rect(0 0 0 0);
 
 .team-item {
   flex-basis: calc((100% - 3 * 24px) / 4);
+  width: 100%;
   background: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -511,7 +517,7 @@ clip: rect(0 0 0 0);
   letter-spacing: 0.02em;
   color: var(--accent-color);
 
-  padding-top: 24px;
+  padding-top: 32px;
   padding-bottom: 8px;
 }
 .team-item-text {
