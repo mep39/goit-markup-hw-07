@@ -1,25 +1,16 @@
-@media screen and (min-width: 480px) {
+/* @media screen and (min-width: 480px) {
     .container {
-      max-width: 448px;
+      max-width: 428px;
+    }
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-bg.jpg);
     }
   
     .hero-container {
       max-width: 100%;
     }
-  
-    .hero-wrap {
-      background-image: var(--gra), url(../img/hero-bg-tab.jpeg);
-    }
-  
-    @media (min-device-pixel-ratio: 2),
-      (min-resolution: 192dpi),
-      (min-resolution: 2dppx) {
-      .hero-wrap {
-        background-image: var(--gra), url(../img/hero-bg-tab-2x.jpeg);
-      }
-    }
-  
-    .hero-title {
-      font-size: 48px;
-    }
   }
+
+  @media screen and (max-width: 767px) {
+
+  } */

@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
     .container {
       max-width: 1200px;
     }
@@ -6,40 +6,4 @@
     .container.container-mini {
       max-width: 1200px;
     }
-  
-    .hero-wrap {
-      padding-bottom: 210px;
-    }
-  
-    .hero-title {
-      font-size: 72px;
-      line-height: 1.18;
-    }
-  
-    .barbers {
-      padding-top: 120px;
-      padding-bottom: 120px;
-    }
-  
-    .barbers-item {
-      width: calc((100% - 60px) / 3);
-    }
-  
-    .test {
-      padding-top: 120px;
-      padding-bottom: 120px;
-    }
-  
-    .test-item {
-      width: calc((100% - 150px) / 6);
-    }
-  
-    .gallery {
-      padding-top: 120px;
-      padding-bottom: 120px;
-    }
-  
-    .gallery-item {
-      width: calc((100% - 90px) / 4);
-    }
-  }
+  } */
