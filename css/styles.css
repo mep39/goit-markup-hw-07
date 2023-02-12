@@ -384,6 +384,7 @@ clip: rect(0 0 0 0);
   /* width: 264px;
   height: 112px;
   flex-basis: calc((100% - 3 * 24px) / 4); */
+  
 }
 
 .feature-item-link {
@@ -403,7 +404,7 @@ clip: rect(0 0 0 0);
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--accent-color);
-
+  text-align: center;
   margin-bottom: 8px;
 }
 .feature-item-text {
@@ -450,6 +451,13 @@ clip: rect(0 0 0 0);
   padding-top: 96px;
   padding-bottom: 128px;
   background: #F4F4FD;
+  
+}
+
+.team-container {
+  
+  padding-right: 82px;
+  padding-left: 82px;
 }
 .team-title {
   font-weight: 700;
@@ -460,21 +468,23 @@ clip: rect(0 0 0 0);
   text-transform: capitalize;
   color: var(--accent-color);
 
-  padding-bottom: 72px;
+  /* padding-bottom: 72px; */
 }
 .team-list {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-    
+  gap: 24px; */
+  
 }
 
 .team-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  /* flex-basis: calc((100% - 3 * 24px) / 4); */
   width: 100%;
   background: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  margin-top: 72px;
+  padding-bottom: 32px;
   
 }
 .team-item-title {
@@ -502,15 +512,16 @@ clip: rect(0 0 0 0);
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 32px;
 }
 
 .team-list-soc-item {
   width: 40px;
   height: 40px;
+    
 }
 
 .team-item-soc-link {
+  
   width: 100%;
   height: 100%;
   background: #4D5AE5;
@@ -602,6 +613,11 @@ clip: rect(0 0 0 0);
 .subfooter {
   /* align-items: baseline; */
   /* display: flex; */
+  display: flex;
+  flex-direction: column;
+  row-gap: 72px;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-container {
@@ -610,9 +626,9 @@ clip: rect(0 0 0 0);
 }
 .footer .logo {
   color: #F4F4FD;
-
+  display: flex;
   max-width: 115px;
-
+  margin: auto;
 }
 
 .footer-text {
@@ -640,7 +656,7 @@ clip: rect(0 0 0 0);
   font-style: normal;
 
   margin-bottom: 16px;
-
+  text-align: center;
 }
 
 .social-list-soc-list {
@@ -677,10 +693,12 @@ clip: rect(0 0 0 0);
 .footer-form {
   display: flex;
   flex-direction: column;
+  
 }
 
 
 .footer-form-text {
+  text-align: center;
   margin-bottom: 16px;
 
   font-family: 'Roboto';
@@ -728,6 +746,8 @@ clip: rect(0 0 0 0);
   letter-spacing: 0.02em;
   color: #FFFFFF;
   margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-form-btn:is(:hover, :focus) {
