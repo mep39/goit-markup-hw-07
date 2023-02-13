@@ -1,4 +1,4 @@
-/* @media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
     .container {
       max-width: 1200px;
     }
@@ -6,4 +6,4 @@
     .container.container-mini {
       max-width: 1200px;
     }
-  } */
+  }
