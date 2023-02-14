@@ -1,6 +1,6 @@
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 480px) and (max-width: 767px) {
     .container {
-      max-width: 428px;
+      width: 428px;
     }
     /*--------------HERO-------------------*/
     .hero {
@@ -15,7 +15,7 @@
     }
   
     .hero-container {
-      max-width: 396px;
+      max-width: 100%;
     }
 
     .hero-title {
@@ -24,8 +24,12 @@
   }
   @media screen and (max-width: 767px) {
     /*-------------FEATURES----------------*/
+    .feature-item-title {
+      line-height: 1.11;
+    }
     .feature-item-text {
       font-weight: 500;
     }
+    
     
   }
