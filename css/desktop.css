@@ -1,6 +1,6 @@
 @media screen and (min-width: 1200px) {
   .container {
-    min-width: 1158px;
+    max-width: 1158px;
   }
   .mob-menu,
   .menu-open-btn {
@@ -9,7 +9,7 @@
   .modal {
     width: 408px;
     height: 584px;
-    margin-top: 80px;
+    /* margin-top: 80px; */
   }
 
   /* -----------------HEADER--------------------- */
@@ -78,6 +78,7 @@
   .address-item-mail a {
     font-style: normal;
     font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--secondary-color);
@@ -92,6 +93,7 @@
   .address-item-tel a {  
     font-style: normal;
     font-weight: 400;
+    font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--secondary-color);
@@ -104,7 +106,7 @@
 
   /* ----------------------HERO------------------- */
   .hero {
-    min-width: 1158px;
+    max-width: 1440px;
     padding-top: 188px;
     padding-bottom: 188px;
   }
@@ -115,27 +117,25 @@
   }
 /* -------------------------FEATURE-------------------- */
   .feature {
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 120px;
+    padding-bottom: 120px;
   }
   .feature-container {
-    margin-top: 120px;
-    margin-bottom: 120px;
+    max-width: 1158px;
   }
   .feature-list {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     column-gap: 24px;
     justify-content: center;  
   }
-  .feature-item {
-    width: 264px;
-    height: 112px;
-    flex-basis: calc((100% - 3 * 24px) / 4);  
+  .feature-item {    
+    flex-basis: calc((100% - 3 * 24px) / 4); 
+    margin-bottom: 0px; 
   }
   .feature-item-link {
-    width: 100%;
-    height: 100%;
+    width: 264px;
+    height: 112px;
     background: #F4F4FD;
     border-radius: 4px;
     display: flex;
@@ -157,7 +157,7 @@
   /* ----------------------GALLERY------------------- */
   .gallery {
     min-width: 1158px;
-    padding-top: 120px;
+    padding-top: 0px;
     display: flex;
   }  
   .gallery-title {
@@ -178,7 +178,7 @@
   .gallery-item {
     margin: 0;
     flex-basis: calc((100% - 2 * 24px) / 3);    
-    padding-bottom: 120px;   
+    /* padding-bottom: 120px;    */
   }
 
 /* -------------------TEAM------------------------- */
@@ -199,7 +199,7 @@
   background: #FFFFFF;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  margin-top: 64px;
+  margin-top: 0;
   padding-bottom: 32px;  
 }
 
@@ -208,6 +208,16 @@
   padding-top: 120px;
   padding-bottom: 120px;
 }
+.customers-container {
+  max-width: 1158px;
+}
+.customers-list {
+  /* gap: 24px; */
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 72px;
+}
 .customers-item {
   width: calc((100% - 5 * 24px) / 6);
   height: 88px;
@@ -215,11 +225,12 @@
 
 /* ---------------------FOOTER----------------------- */
 .footer {
-  width: 1158px;
+  /* width: 1158px; */
   padding-top: 100px;
   padding-bottom: 100px;
 }
 .subfooter {
+  max-width: 1158px;
   /* display: flex; */
   align-items: baseline;
   /* justify-content: start; */
