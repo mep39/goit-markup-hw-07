@@ -147,8 +147,6 @@ img {
   /* display: flex; */
   display: none;
 }
-.address-item {
-}
 .address-item-mail a {
   font-style: normal;
   font-weight: 400;
@@ -330,9 +328,6 @@ img {
   
   padding-bottom: 72px;
 }
-.button {
-  
-}
 .hero-btn {
   font-family: inherit;
   font-weight: 500;
@@ -380,9 +375,6 @@ clip: rect(0 0 0 0);
   justify-content: center;
   margin-bottom: 72px;
 }
-.portfolio-btn-list :hover,
-.portfolio-btn-list :focus {
-}
 .portfolio-btn-item button {
   font-family: inherit;
   font-weight: 500;
@@ -419,9 +411,6 @@ clip: rect(0 0 0 0);
   background-color: var(--primery-color);    
   cursor: pointer;
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
-.portfolio-title {
-  
 }
 .portfolio-list {
   
@@ -475,14 +464,6 @@ clip: rect(0 0 0 0);
 
 .portfolio-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-item:nth-child(3n) {
-  
-}
-
-.portfolio-item:nth-last-child(-n+3) {
-  
 }
 .portfolio-item-title {
   font-size: 20px;
