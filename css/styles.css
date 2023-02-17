@@ -203,15 +203,16 @@ img {
   display: block;
   margin-left: auto;
   border: none;
+  background-color: #FFFFFF;
   
 }
 .menu-open-icon {
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   stroke: #2E2F42;
 }
 
 .close-mob-menu-icon {
-  background-color: #FFFFFF;
+  /* background-color: #FFFFFF; */
   margin-top: 7px;
   margin-right: 12px;
 }
@@ -296,7 +297,10 @@ img {
   max-width: 428px;
   background: var(--accent-color);
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/dark-bg-mob-1x.jpg);
-  padding: 112px 54px;
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background-repeat: no-repeat;
+  background-size: cover;
   /* padding-top: 188px;
   padding-bottom: 188px; */
   margin: 0 auto;
@@ -653,6 +657,7 @@ clip: rect(0 0 0 0);
   display: flex;
   justify-content: center;
   gap: 24px;
+  width: 263px;
 }
 
 .team-list-soc-item {

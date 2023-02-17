@@ -7,7 +7,7 @@
   .team-container,
   .customers-container,
   .subfooter {
-    width: 582px;
+    max-width: 582px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -153,14 +153,19 @@
   .team-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;   
+    /* gap: 24px; */
+    row-gap: 64px;
+    column-gap: 24px;   
   }
   .team-item {
     flex-basis: calc((100% - 3 * 24px) / 2);
-    margin-top: 64px;     
+    margin-top: 0;     
   }
-  .team-item:nth-child(-n + 2) {
+  /* .team-item:nth-child(-n + 2) {
     margin-top: 0;
+  } */
+  .team-list-soc-list {  
+    width: 263px;
   }
 
   /* ---------------------CUSTOMERS-------------------- */
